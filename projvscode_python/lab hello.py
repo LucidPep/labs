@@ -1,0 +1,5 @@
+print("Как тебя зовут???")
+name = input()
+print("Рад встрече, {0}! Откуда ты?".format(name))
+city = input()
+print("Ого, {0}? Далековато тебя занесло, {1}. ".format(city, name))
